@@ -826,7 +826,7 @@ class ProjectiveGroupElement {
 
     FeSquare(r.X, X);
     FeSquare(r.Z, Y);
-    FeSquare2(r.T, Z);
+      FeSquare2(r.T, Z);
     FeAdd(r.Y, X, Y);
     FeSquare(t0, r.Y);
     FeAdd(r.Y, r.Z, r.X);
